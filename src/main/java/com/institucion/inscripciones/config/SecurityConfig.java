@@ -66,7 +66,7 @@ public class SecurityConfig {
     var cfg = new CorsConfiguration();
     cfg.setAllowedOrigins(java.util.List.of(
       "http://localhost:3000",
-      "https://tu-frontend.onrender.com",
+      "https://sistema-matriculas.onrender.com",
       "https://sistemainscripcionesbackend.onrender.com"
     ));
     cfg.setAllowedMethods(java.util.List.of("GET","POST","PUT","DELETE","OPTIONS"));
